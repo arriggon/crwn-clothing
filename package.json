@@ -15,7 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "jest",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -34,12 +34,6 @@
     ]
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.9.6",
-    "@babel/preset-react": "^7.9.4",
-    "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.2",
-    "prettier": "^2.0.5",
-    "react-test-renderer": "^16.13.1",
-    "@jest/globals": "^25.5.2"
+    "prettier": "^2.0.5"
   }
 }
