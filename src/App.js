@@ -3,6 +3,7 @@ import "./App.css";
 import HomePage from "./pages/homepage/homepage.component";
 import { Route, Switch } from "react-router-dom";
 
+// eslint-disable-next-line no-unused-vars
 const SHOP_DATA = [
   {
     id: 1,
