@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import HomePage from "./pages/homepage/homepage.component";
-import { Redirect, Route, Switch } from "react-router-dom";
+import { Link, Redirect, Route, Switch } from "react-router-dom";
 import ShopPage from "./pages/shop/shop.component";
 import Header from "./components/header/header.component";
 
@@ -16,6 +16,11 @@ const Page404 = () => (
     <p>
       If this issue keeps happening, please{" "}
       <a href="mailto:contact@moritz-b.com">contact us</a>!
+    </p>
+    <p>
+      <button>
+        <Link to="/">GO HOME</Link>
+      </button>
     </p>
   </div>
 );
